@@ -1,0 +1,407 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Uthappizza",
+      "image": "images/uthappizza.png",
+      "category": "mains",
+      "label": "Hot",
+      "price": "4.99",
+      "featured": true,
+      "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
+    },
+    {
+      "id": 1,
+      "name": "Zucchipakoda",
+      "image": "images/zucchipakoda.png",
+      "category": "appetizer",
+      "label": "",
+      "price": "1.99",
+      "featured": false,
+      "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce"
+    },
+    {
+      "id": 2,
+      "name": "Vadonut",
+      "image": "images/vadonut.png",
+      "category": "appetizer",
+      "label": "New",
+      "price": "1.99",
+      "featured": false,
+      "description": "A quintessential ConFusion experience, is it a vada or is it a donut?"
+    },
+    {
+      "id": 3,
+      "name": "ElaiCheese Cake",
+      "image": "images/elaicheesecake.png",
+      "category": "dessert",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms"
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "dishId": 0,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 1,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "dishId": 0,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dishId": 0,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 4,
+      "dishId": 0,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 5,
+      "dishId": 1,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 6,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 7,
+      "dishId": 1,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 8,
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 9,
+      "dishId": 1,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 10,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 11,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 12,
+      "dishId": 2,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 13,
+      "dishId": 2,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 14,
+      "dishId": 2,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 15,
+      "dishId": 3,
+      "rating": 5,
+      "comment": "Imagine all the eatables, living in conFusion!",
+      "author": "John Lemon",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 16,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "author": "Paul McVites",
+      "date": "2014-09-05T17:57:28.556094Z"
+    },
+    {
+      "id": 17,
+      "dishId": 3,
+      "rating": 3,
+      "comment": "Eat it, just eat it!",
+      "author": "Michael Jaikishan",
+      "date": "2015-02-13T17:57:28.556094Z"
+    },
+    {
+      "id": 18,
+      "dishId": 3,
+      "rating": 4,
+      "comment": "Ultimate, Reaching for the stars!",
+      "author": "Ringo Starry",
+      "date": "2013-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 19,
+      "dishId": 3,
+      "rating": 2,
+      "comment": "It's your birthday, we're gonna party!",
+      "author": "25 Cent",
+      "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "dishId": 1,
+      "rating": "5",
+      "author": "Nagaraj Alva",
+      "comment": "this is a comment",
+      "date": "2020-06-09T11:27:42.919Z",
+      "id": 20
+    },
+    {
+      "dishId": 1,
+      "rating": "3",
+      "author": "aaaa",
+      "comment": "aaaaa",
+      "date": "2020-06-15T07:48:30.009Z",
+      "id": 21
+    },
+    {
+      "dishId": 0,
+      "rating": "4",
+      "author": "mmmmm",
+      "comment": "mmmmm",
+      "date": "2020-06-24T09:34:46.660Z",
+      "id": 22
+    },
+    {
+      "dishId": 0,
+      "rating": "4",
+      "author": "ddddd",
+      "comment": "dddddd",
+      "date": "2020-06-24T09:35:05.385Z",
+      "id": 23
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Grand Buffet",
+      "image": "images/buffet.png",
+      "label": "New",
+      "price": "19.99",
+      "featured": true,
+      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+    }
+  ],
+  "leaders": [
+    {
+      "id": 3,
+      "name": "Nagaraj Alva",
+      "image": "images/alberto.png",
+      "designation": "Chairperson/ Managing Director",
+      "abbr": "MD",
+      "featured": true,
+      "description": "Software Engineer turned Entrepreneur, comes from a long established family tradition in farming and Wants to be the next success stories in the tourism industry"
+    },
+    {
+      "id": 0,
+      "name": "Thyagaraj Alva",
+      "image": "images/karthi.jpg",
+      "designation": "Chief Executive Officer",
+      "abbr": "CEO",
+      "featured": false,
+      "description": "Thyagaraj holds the position of Chief Executive Officer since 2016. A professional of the luxury hospitality business, Humphries’ career has been spent with some of the world’s best known hotels including The Savoy and Athanaeum hotels in London, Royal Pavilion and Glitter Bay Resorts in Barbados and most recently with Yas Viceroy Abu Dhabi where he held the position of Regional VP and General Manager."
+    },
+    {
+      "id": 1,
+      "name": "Pravisha Padil",
+      "image": "images/pravisha.jpg",
+      "designation": "Chief Opearating Officer",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Our CFO, Pravisha joined Katara Hospitality in September 2013 having previously worked as a Techincal Consulatant at a leading international IT firm. Pravisha has extensive experience in acquisitions and disposals of companies and real estate assets in Europe and the MENA region having advised major international corporate clients, institutional investors and sovereign wealth funds."
+    },
+    {
+      "id": 2,
+      "name": "Prathik Bhat",
+      "image": "images/prathik.jpg",
+      "designation": "Chief Financial Officer",
+      "abbr": "CFO",
+      "featured": false,
+      "description": "Prathik Bhat is currently the Chief Financial Officer in Beach Happy Resort, previously he held the position of Chief Strategy & Development Officer in the company. Prathik joined Beach Happy after serving (7) years in Marriott International/ Starwood Hotels and Resorts; his last position was Area Director of Finance for Gulf and European Region"
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "fdas",
+      "lastname": "afds",
+      "telnum": "134113",
+      "email": "dafdads@daffas.dfdafd",
+      "agree": true,
+      "contactType": "Email",
+      "message": "afadsfds",
+      "date": "2017-12-04T09:41:49.890Z",
+      "id": 1
+    },
+    {
+      "firstname": "Nagaraj",
+      "lastname": "Alva",
+      "telnum": "31115320",
+      "email": "nagarajalva5790@gmail.com",
+      "agree": true,
+      "contactType": "Email",
+      "message": "The food was awesome!!!",
+      "id": 2
+    },
+    {
+      "firstname": "Nagaraj",
+      "lastname": "Alva",
+      "telnum": "111111111",
+      "email": "aaa@aa.aa",
+      "agree": true,
+      "contactType": "Tel.",
+      "message": "Hospitality during my stay was awesome.",
+      "id": 3
+    }
+  ],
+  "accommodations": [
+    {
+      "id": 0,
+      "name": "AC Classic twin sharing room",
+      "image": "images/AC-Classic.jpg",
+      "category": "Room",
+      "label": "Hot",
+      "price": "4.99",
+      "featured": true,
+      "description": "AC Classic twin sharing room is equipped with twin sharing cots, each cot is 6.3ft X 3ft., air condition, television, wardrobe and laundry service available. The warm ambience, tiled roof and surrounding coconut palms bring out a distinguished Mangalorean experience of stay."
+    },
+    {
+      "id": 1,
+      "name": "AC Deluxe double",
+      "image": "images/AC-Deluxe.jpg",
+      "category": "Room",
+      "label": "",
+      "price": "1.99",
+      "featured": false,
+      "description": "The 40 sq mt AC Deluxe double sharing room is equipped with a king size bed, air condition, television, wardrobe and laundry service available. The warm ambience, tiled roof and surrounding coconut palms bring out a distinguished Mangalorean experience of stay."
+    },
+    {
+      "id": 2,
+      "name": "Two ICR",
+      "image": "images/2_ICR_SUITE.jpg",
+      "category": "Room",
+      "label": "",
+      "price": "1.99",
+      "featured": false,
+      "description": "Two ICR suite is two interconnected rooms. One room is self contained while the connecting room is place for relaxation that opens out to garden. It  is equipped with twin sharing cots, each cot is 6.3ft X 3ft., with a double sofa cum bed to accommodate the extra persons, air condition, television in both the rooms, wardrobe, luggage rack, and laundry service available. The warm ambience, tiled roof and surrounding coconut palms bring out a distinguished Mangalorean experience of stay."
+    },
+    {
+      "id": 3,
+      "name": "Three ICR suite",
+      "image": "images/3_ICR_SUITE.jpg",
+      "category": "Room",
+      "label": "",
+      "price": "2.99",
+      "featured": false,
+      "description": "Three ICR suite is three interconnected rooms. Two rooms are self contained while the connecting room is place for relaxation that opens out to garden. It  is equipped with twin sharing cots, each cot is 6.3ft X 3ft., with a double sofa cum bed to accommodate the extra persons, air condition, television in both the rooms, wardrobe, and laundry service available. The warm ambience, tiled roof and surrounding coconut palms bring out a distinguished Mangalorean experience of stay."
+    }
+  ],
+  "activities": [
+    {
+      "id": 0,
+      "name": "Stand Up Paddling",
+      "image": "images/beach_activity.png",
+      "label": "New",
+      "price": "1000.99",
+      "featured": true,
+      "description": "SUP is fast becoming a popular sport worldwide. It's about having fun and more importantly is an amazing workout! The main aim of organizing a Stand Up Paddle camp is to give everyone a chance to enjoy the ocean waves. This is an amazing opportunity to learn SUP in a one day course. There will be 90 minutes training session in the pristine backwaters and after that briefing and prepping regarding the safety measures. "
+    }
+  ],
+  "reviews": [
+    {
+      "accomId": 0,
+      "rating": "4",
+      "author": "Nagaraj A",
+      "review": "Awesome experience.",
+      "date": "2020-06-24T08:59:43.425Z",
+      "id": 1
+    },
+    {
+      "accomId": 1,
+      "rating": "5",
+      "author": "Briston",
+      "review": "a good place to hang out.",
+      "date": "2020-06-24T09:00:57.523Z",
+      "id": 2
+    },
+    {
+      "accomId": 0,
+      "rating": "3",
+      "author": "abbdbddb",
+      "review": "qoiajdahdjoajd",
+      "date": "2020-06-24T09:34:11.392Z",
+      "id": 3
+    },
+    {
+      "accomId": 0,
+      "rating": "5",
+      "author": "mmmm",
+      "review": "mmmmmmm",
+      "date": "2020-06-24T09:34:27.284Z",
+      "id": 4
+    }
+  ]
+}
